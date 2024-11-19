@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.10.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - Moya
+  - Moya/RxSwift
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 1197db80c76e849cf1c2216d019f04faa417dbd3
+
+COCOAPODS: 1.16.2
